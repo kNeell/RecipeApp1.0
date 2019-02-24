@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head> 
+
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<title></title>
+</head>
+<body>
+	<header>
+		<h1>Whats cooking good lookin?</h1>
+		<br>
+		<input type="text" id="recipeSearch" placeholder="enter recipe here">
+		<br>
+			From: <input type="number" id="from">
+			To: <input type="number" id="to">
+		<br>
+		<button id="searchRecipeButton">Search Recipes</button>
+		<hr>
+		<select id="healthOptions">
+			<option value="">None</option>
+			<option value="vegetarian">Vegetarian</option>
+			<option value="vegan">Vegan</option>
+			<option value="paleo">Paleo</option>
+			<option value="kosher">Kosher</option>
+		</select>
+		<hr>
+		<div id="alergenFilter">
+			<label>Peanut<input id="option1" type="checkbox" value="peanut"></label>
+			<label>No-sugar<input id="option2" type="checkbox" value="low-sugar"></label>
+			<label>Shellfish<input id="option3" type="checkbox" value="shellfish-free"></label>
+			<label>Dairy<input id="option4" type="checkbox" value="dairy-free"></label>
+			<label>Gluten<input id="option5" type="checkbox" value="gluten-free"></label>
+		</div>
+		<hr>
+		<div id="recipeContent">
+			<div class="recipeItem"><div class="recipeTitle"></div><img src="" alt="" class="recipeImage"><yield></yield><ul><li></li></ul></div>
+		</div>
+
+	</header>
+
+
+
+
+
+
+
+
+
+	<script src="scripts/jquery.js"></script>
+	<script src="scripts/main.js"></script>
+</body>
+</html>

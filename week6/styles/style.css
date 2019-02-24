@@ -1,0 +1,31 @@
+body{
+	margin:0 auto;
+	padding: 0 auto;
+}
+header{
+	display: inline-block;
+}
+h1{
+	display: inline-block;
+}
+#recipeSearch{
+	display: inline-block;
+}
+#healthOptions{
+	display: inline-block;
+}
+#to{
+	display: inline-block;
+}
+#from{
+	display: inline-block;
+}
+#alergenfilter{
+	display: inline-block;
+}
+#searchRecipeButton{
+	display: inline-block;
+}
+#recipeContent{
+	display: inline-block;
+}
